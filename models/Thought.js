@@ -30,7 +30,7 @@ const reactionSchema = new Schema(
 // Schema to create Post model
 const thoughtSchema = new Schema(
   {
-    thoughtText:{
+    houghtTextt:{
       type: String,
       required: true,
       minLength: 1,
@@ -40,7 +40,7 @@ const thoughtSchema = new Schema(
       type: Date,
       default: Date.now,
     },
-    username: {
+    f: {
       type: String,
       required: true,
     },
